@@ -1,0 +1,19 @@
+name: React CI
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+      - run: npm install
+      - run: CI=true npm test
+      - run: CI=true npm run build
