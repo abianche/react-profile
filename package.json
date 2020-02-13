@@ -1,5 +1,14 @@
 {
   "name": "react-profile",
+  "author": {
+    "name": "Alessio Bianchetti",
+    "email": "alessio.bianchetti@gmail.com",
+    "url": "https://abianche.github.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/abianche/react-profile"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
