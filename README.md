@@ -1,3 +1,11 @@
+# react-profile
+
+Profile page build with React.
+
+![React CI](https://github.com/abianche/react-profile/workflows/React%20CI/badge.svg)
+
+----------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
