@@ -23,7 +23,7 @@ export default class DonateButton extends Component {
           <img
             alt=""
             // border="0"
-            src="https://www.paypal.com/en_IT/i/scr/pixel.gif"
+            src="https://www.paypal.com/en_US/i/scr/pixel.gif"
             width="1"
             height="1"
           />
