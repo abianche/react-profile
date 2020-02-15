@@ -1,18 +1,38 @@
 import React from "react";
-import profileImage from "./images/profile.jpg";
 import "./App.css";
 import { SocialButtons } from "./components/SocialButtons";
+import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Profile from "./components/Profile";
+
+export const Palette = {
+  raisin_black: "#212121",
+  sunburnt_cyclops: "#f4434e",
+  sunglow: "#ffc43a"
+};
+
+// https://material-ui.com/customization/theming/
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#FFFFFF"
+    }
+  }
+});
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={profileImage} className="App-logo" alt="logo" />
-        <p className="Profile-title">Alessio Bianchetti</p>
-        <p className="Profile-subtitle">Computer Scientist</p>
-        <SocialButtons></SocialButtons>
-      </header>
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <div className="App">
+        <Header />
+        <Profile>
+          <SocialButtons />
+        </Profile>
+        <Footer />
+        <footer className="App-footer"></footer>
+      </div>
+    </MuiThemeProvider>
   );
 };
 

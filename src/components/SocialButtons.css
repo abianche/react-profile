@@ -1,0 +1,7 @@
+.SocialButton {
+  padding: 1vmin;
+}
+
+.SocialButton:hover {
+  color: #f4434e;
+}

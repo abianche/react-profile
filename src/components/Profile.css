@@ -1,0 +1,24 @@
+.Profile {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex: 1;
+}
+
+.Profile-logo {
+  height: 35vmin;
+  pointer-events: none;
+  border-radius: 10%;
+}
+
+.Profile-title {
+  font-family: Lato_regular, Arial, sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.Profile-subtitle {
+  font-family: Lato_regular, Arial, sans-serif;
+  font-weight: bold;
+  font-size: calc(13px + 1vmin);
+  margin: 5px;
+}
