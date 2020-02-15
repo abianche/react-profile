@@ -21,9 +21,10 @@ export class SocialButtons extends React.Component {
 
   render() {
     return (
-      <div>
+      <div data-testid="social-buttons">
         <IconButton
           className="SocialButton"
+          data-testid="social-button"
           color="primary"
           aria-label="email"
           onClick={partialRight(this.openPage, [
@@ -34,6 +35,7 @@ export class SocialButtons extends React.Component {
         </IconButton>
         <IconButton
           className="SocialButton"
+          data-testid="social-button"
           color="primary"
           aria-label="github"
           onClick={partialRight(this.openPage, ["https://github.com/abianche"])}
@@ -42,6 +44,7 @@ export class SocialButtons extends React.Component {
         </IconButton>
         <IconButton
           className="SocialButton"
+          data-testid="social-button"
           color="primary"
           aria-label="telegram"
           onClick={partialRight(this.openPage, ["https://t.me/abianche"])}
@@ -50,6 +53,7 @@ export class SocialButtons extends React.Component {
         </IconButton>
         <IconButton
           className="SocialButton"
+          data-testid="social-button"
           color="primary"
           aria-label="linkedin"
           onClick={partialRight(this.openPage, [
@@ -60,6 +64,7 @@ export class SocialButtons extends React.Component {
         </IconButton>
         <IconButton
           className="SocialButton"
+          data-testid="social-button"
           color="primary"
           aria-label="facebook"
           onClick={partialRight(this.openPage, [

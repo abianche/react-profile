@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class DonateButton extends Component {
   render() {
     return (
-      <div>
+      <div data-testid="donate-button">
         <form
           action="https://www.paypal.com/cgi-bin/webscr"
           method="post"

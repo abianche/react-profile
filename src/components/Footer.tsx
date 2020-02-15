@@ -5,7 +5,7 @@ import DonateButton from "./DonateButton";
 export default class Footer extends React.Component {
   render() {
     return (
-      <div className="Footer">
+      <div className="Footer" data-testid="footer">
         <DonateButton />
         <p>
           Made with{" "}

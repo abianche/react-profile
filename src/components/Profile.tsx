@@ -5,7 +5,7 @@ import "./Profile.css";
 export default class Profile extends Component {
   render() {
     return (
-      <div className="Profile">
+      <div className="Profile" data-testid="profile">
         <img src={profileImage} className="Profile-logo" alt="logo" />
         <p className="Profile-title">Alessio Bianchetti</p>
         <p className="Profile-subtitle">Computer Scientist</p>

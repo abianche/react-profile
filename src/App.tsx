@@ -24,7 +24,7 @@ const theme = createMuiTheme({
 const App = () => {
   return (
     <MuiThemeProvider theme={theme}>
-      <div className="App">
+      <div className="App" data-testid="app">
         <Header />
         <Profile>
           <SocialButtons />
