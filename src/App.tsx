@@ -3,6 +3,7 @@ import "./App.css";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Projects from "./pages/Projects";
 
 export const Palette = {
   raisin_black: "#212121",
@@ -27,6 +28,9 @@ const App = () => {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/projects">
+              <Projects />
             </Route>
           </Switch>
         </Router>

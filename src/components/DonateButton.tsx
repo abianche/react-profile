@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// FIXME: replace https images with local images
 export default class DonateButton extends Component {
   render() {
     return (
@@ -14,7 +15,7 @@ export default class DonateButton extends Component {
           <input type="hidden" name="currency_code" value="EUR" />
           <input
             type="image"
-            src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
+            // src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
             // border="0"
             name="submit"
             title="PayPal - The safer, easier way to pay online!"
@@ -23,7 +24,7 @@ export default class DonateButton extends Component {
           <img
             alt=""
             // border="0"
-            src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+            // src="https://www.paypal.com/en_US/i/scr/pixel.gif"
             width="1"
             height="1"
           />
