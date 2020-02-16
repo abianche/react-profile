@@ -1,6 +1,11 @@
 import React, { Component } from "react";
+import donateImage from "../images/btn_donate_SM.gif";
+import pixelImage from "../images/pixel.gif";
 
-// FIXME: replace https images with local images
+const noBorder = {
+  border: 0
+};
+
 export default class DonateButton extends Component {
   render() {
     return (
@@ -15,19 +20,13 @@ export default class DonateButton extends Component {
           <input type="hidden" name="currency_code" value="EUR" />
           <input
             type="image"
-            // src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
-            // border="0"
+            src={donateImage}
+            style={noBorder}
             name="submit"
             title="PayPal - The safer, easier way to pay online!"
             alt="Donate with PayPal button"
           />
-          <img
-            alt=""
-            // border="0"
-            // src="https://www.paypal.com/en_US/i/scr/pixel.gif"
-            width="1"
-            height="1"
-          />
+          <img alt="" style={noBorder} src={pixelImage} width="1" height="1" />
         </form>
       </div>
     );
