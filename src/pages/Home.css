@@ -1,11 +1,7 @@
-.App {
-  background-color: #212121;
+.Home {
+  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-}
-
-.sunburnt_cyclops {
-  color: #f4434e;
 }

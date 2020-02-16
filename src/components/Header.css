@@ -2,6 +2,8 @@
   flex: 1;
   align-items: flex-start;
   color: white;
+  max-height: fit-content;
+  padding-bottom: 5vh;
 }
 
 .Header-bar {

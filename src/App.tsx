@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
-import { SocialButtons } from "./components/SocialButtons";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Profile from "./components/Profile";
+import Home from "./pages/Home";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export const Palette = {
   raisin_black: "#212121",
@@ -25,12 +23,13 @@ const App = () => {
   return (
     <MuiThemeProvider theme={theme}>
       <div className="App" data-testid="app">
-        <Header />
-        <Profile>
-          <SocialButtons />
-        </Profile>
-        <Footer />
-        <footer className="App-footer"></footer>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </MuiThemeProvider>
   );
