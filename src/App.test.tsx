@@ -7,6 +7,9 @@ test("renders app", () => {
   const app = getByTestId("app");
   expect(app).toBeInTheDocument();
 
+  const home = getByTestId("home");
+  expect(home).toBeInTheDocument();
+
   const header = getByTestId("header");
   expect(header).toBeInTheDocument();
 
