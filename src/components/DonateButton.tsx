@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import donateImage from "../images/btn_donate_SM.gif";
+import donateImage from "../images/btn_donate_LG.gif";
 import pixelImage from "../images/pixel.gif";
 
 const noBorder = {
