@@ -7,8 +7,8 @@ export default class Profile extends Component {
     return (
       <div className="Profile" data-testid="profile">
         <img src={profileImage} className="Profile-logo" alt="logo" />
-        <p className="Profile-title">Alessio Bianchetti</p>
-        <p className="Profile-subtitle">Computer Scientist</p>
+        <h1 className="Profile-title">Alessio Bianchetti</h1>
+        <h2 className="Profile-subtitle">Computer Scientist</h2>
         {this.props.children}
       </div>
     );
