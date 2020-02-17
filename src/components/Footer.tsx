@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
           </span>{" "}
           using React
         </p>
-        <p>All rights reserverd</p>
+        <p>All rights reserved</p>
         <p>@{new Date().getFullYear()}</p>
       </div>
     );
