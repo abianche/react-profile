@@ -1,0 +1,26 @@
+.ProjectPage {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+
+  color: white;
+  text-align: center;
+}
+
+.ProjectPage .Tags {
+  color: #f4434e;
+}
+
+.ProjectPage .Header {
+  height: 250px;
+  width: auto;
+  border-radius: 2%;
+}
+
+.ProjectPage .Content {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}

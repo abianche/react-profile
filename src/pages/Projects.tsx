@@ -3,13 +3,14 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./Projects.css";
 import ProjectsList from "../components/ProjectsList";
+import * as projects from "./projects";
 
 export default class Projects extends Component {
   render() {
     return (
       <div className="Projects" data-testid="projects">
         <Header />
-        <ProjectsList projects={[{ name: "test", description: "test" }]} />
+        <ProjectsList projects={[projects.autoscuola_silveri]} />
         <Footer />
       </div>
     );

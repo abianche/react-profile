@@ -9,7 +9,13 @@ export interface IProjectsListProps {
 export default class ProjectsList extends Component<IProjectsListProps> {
   public render() {
     const projects = this.props.projects.map(project => (
-      <Project name={project.name} description={project.description}></Project>
+      <Project
+        name={project.name}
+        image={project.image}
+        datetime={project.datetime}
+        tags={project.tags}
+        url={project.url}
+      ></Project>
     ));
     return (
       <div className="ProjectsList" data-testid="projects-list">
