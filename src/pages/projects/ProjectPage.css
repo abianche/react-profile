@@ -9,8 +9,17 @@
   text-align: center;
 }
 
+.ProjectPage .Title {
+  margin-bottom: 3px;
+}
+
+.ProjectPage .DateTime {
+  margin: 3px;
+}
+
 .ProjectPage .Tags {
   color: #f4434e;
+  margin: 3px;
 }
 
 .ProjectPage .Header {
@@ -23,4 +32,16 @@
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.ProjectPage .Center {
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+
+.ProjectPage .Badge img {
+  width: 150px;
+  height: auto;
+  padding-top: 5px;
 }

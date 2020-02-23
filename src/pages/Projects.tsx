@@ -10,7 +10,14 @@ export default class Projects extends Component {
     return (
       <div className="Projects" data-testid="projects">
         <Header />
-        <ProjectsList projects={[projects.autoscuola_silveri]} />
+        <ProjectsList
+          projects={[
+            projects.pomodoro_time,
+            projects.profile_flutter,
+            projects.planning_poker,
+            projects.autoscuola_silveri
+          ]}
+        />
         <Footer />
       </div>
     );

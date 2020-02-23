@@ -23,7 +23,14 @@ export default class AutoscuolaSilveri extends React.Component<
     return (
       <div className="ProjectPage">
         <Header />
-        <h1>{autoscuola_silveri.name}</h1>
+        <h1 className="Title">{autoscuola_silveri.name}</h1>
+        <p className="DateTime">
+          {autoscuola_silveri.datetime.toLocaleDateString(undefined, {
+            year: "numeric",
+            month: "long",
+            day: "numeric"
+          })}
+        </p>
         <h4 className="Tags">{autoscuola_silveri.tags.join(" · ")}</h4>
         <div>
           <img

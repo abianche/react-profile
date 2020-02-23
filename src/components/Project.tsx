@@ -18,6 +18,12 @@ export default class Project extends Component<IProjectProps> {
         <a href={this.props.url}>
           <h2>{this.props.name}</h2>
         </a>
+        <p>
+          {this.props.datetime.toLocaleDateString(undefined, {
+            year: "numeric",
+            month: "long"
+          })}
+        </p>
         <img
           className="Header"
           src={this.props.image}

@@ -3,6 +3,14 @@
   text-align: center;
 }
 
+.Project h2 {
+  margin-bottom: 0px;
+}
+
+.Project p {
+  margin: 3px;
+}
+
 .Project .Header {
   height: 250px;
   width: auto;
