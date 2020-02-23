@@ -44,8 +44,8 @@ export default class PomodoroTime extends React.Component<IPomodoroTimeProps> {
             <a href="https://github.com/abianche/pomodoro_time">
               https://github.com/abianche/pomodoro_time
             </a>
+            .
           </p>
-          .
         </div>
         <Footer />
       </div>
