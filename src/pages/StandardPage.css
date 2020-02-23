@@ -1,0 +1,9 @@
+.StandardPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}

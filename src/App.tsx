@@ -5,10 +5,13 @@ import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 import AutoscuolaSilveri from "./pages/projects/AutoscuolaSilveri";
-import PlanningPoker from "./pages/projects/PlanningPoker";
+import PlanningPoker, {
+  planning_poker_privacy_policy
+} from "./pages/projects/PlanningPoker";
 import PomodoroTime from "./pages/projects/PomodoroTime";
 import ProfileFlutter from "./pages/projects/ProfileFlutter";
 import ProfileReact from "./pages/projects/ProfileReact";
+import StandardPage from "./pages/StandardPage";
 
 export const Palette = {
   raisin_black: "#212121",
@@ -33,6 +36,12 @@ const App = () => {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/projects/planning_poker/privacy_policy">
+              <StandardPage
+                title={planning_poker_privacy_policy.title}
+                content={planning_poker_privacy_policy.content}
+              />
             </Route>
             <Route path="/projects/profile_react">
               <ProfileReact />

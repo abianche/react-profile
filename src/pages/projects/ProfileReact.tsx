@@ -44,8 +44,8 @@ export default class ProfileReact extends React.Component<IProfileReactProps> {
             <a href="https://github.com/abianche/react-profile">
               https://github.com/abianche/react-profile
             </a>
+            .
           </p>
-          .
         </div>
         <Footer />
       </div>
