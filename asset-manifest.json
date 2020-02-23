@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/abianche.github.io/static/css/main.26606256.chunk.css",
-    "main.js": "/abianche.github.io/static/js/main.95b2a18e.chunk.js",
-    "main.js.map": "/abianche.github.io/static/js/main.95b2a18e.chunk.js.map",
-    "runtime-main.js": "/abianche.github.io/static/js/runtime-main.ff0a9bd9.js",
-    "runtime-main.js.map": "/abianche.github.io/static/js/runtime-main.ff0a9bd9.js.map",
-    "static/css/2.6eaa94f9.chunk.css": "/abianche.github.io/static/css/2.6eaa94f9.chunk.css",
-    "static/js/2.6d307e54.chunk.js": "/abianche.github.io/static/js/2.6d307e54.chunk.js",
-    "static/js/2.6d307e54.chunk.js.map": "/abianche.github.io/static/js/2.6d307e54.chunk.js.map",
-    "index.html": "/abianche.github.io/index.html",
-    "precache-manifest.68d02b116d6cf1d31fb6ebe86dc1c01a.js": "/abianche.github.io/precache-manifest.68d02b116d6cf1d31fb6ebe86dc1c01a.js",
-    "service-worker.js": "/abianche.github.io/service-worker.js",
-    "static/css/2.6eaa94f9.chunk.css.map": "/abianche.github.io/static/css/2.6eaa94f9.chunk.css.map",
-    "static/css/main.26606256.chunk.css.map": "/abianche.github.io/static/css/main.26606256.chunk.css.map",
-    "static/js/2.6d307e54.chunk.js.LICENSE.txt": "/abianche.github.io/static/js/2.6d307e54.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/abianche.github.io/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/header.png": "/abianche.github.io/static/media/header.f3342c6c.png",
-    "static/media/header.jpg": "/abianche.github.io/static/media/header.761d3c55.jpg",
-    "static/media/playstore_badge.png": "/abianche.github.io/static/media/playstore_badge.ef9ef08d.png",
-    "static/media/profile.jpg": "/abianche.github.io/static/media/profile.3482941e.jpg"
+    "main.css": "/static/css/main.26606256.chunk.css",
+    "main.js": "/static/js/main.833b11f0.chunk.js",
+    "main.js.map": "/static/js/main.833b11f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd8ff19a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd8ff19a.js.map",
+    "static/css/2.fa349ff9.chunk.css": "/static/css/2.fa349ff9.chunk.css",
+    "static/js/2.6d307e54.chunk.js": "/static/js/2.6d307e54.chunk.js",
+    "static/js/2.6d307e54.chunk.js.map": "/static/js/2.6d307e54.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.01417fd67440bfa1313383d8c2598f37.js": "/precache-manifest.01417fd67440bfa1313383d8c2598f37.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fa349ff9.chunk.css.map": "/static/css/2.fa349ff9.chunk.css.map",
+    "static/css/main.26606256.chunk.css.map": "/static/css/main.26606256.chunk.css.map",
+    "static/js/2.6d307e54.chunk.js.LICENSE.txt": "/static/js/2.6d307e54.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/header.png": "/static/media/header.f3342c6c.png",
+    "static/media/header.jpg": "/static/media/header.761d3c55.jpg",
+    "static/media/playstore_badge.png": "/static/media/playstore_badge.ef9ef08d.png",
+    "static/media/profile.jpg": "/static/media/profile.3482941e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff0a9bd9.js",
-    "static/css/2.6eaa94f9.chunk.css",
+    "static/js/runtime-main.dd8ff19a.js",
+    "static/css/2.fa349ff9.chunk.css",
     "static/js/2.6d307e54.chunk.js",
     "static/css/main.26606256.chunk.css",
-    "static/js/main.95b2a18e.chunk.js"
+    "static/js/main.833b11f0.chunk.js"
   ]
 }
