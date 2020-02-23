@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 import AutoscuolaSilveri from "./pages/projects/AutoscuolaSilveri";
 import PlanningPoker, {
-  planning_poker_privacy_policy
+  planning_poker_privacy_policy,
+  planning_poker_terms_and_conditions
 } from "./pages/projects/PlanningPoker";
 import PomodoroTime from "./pages/projects/PomodoroTime";
 import ProfileFlutter from "./pages/projects/ProfileFlutter";
@@ -41,6 +42,12 @@ const App = () => {
               <StandardPage
                 title={planning_poker_privacy_policy.title}
                 content={planning_poker_privacy_policy.content}
+              />
+            </Route>
+            <Route path="/projects/planning_poker/terms_and_conditions">
+              <StandardPage
+                title={planning_poker_terms_and_conditions.title}
+                content={planning_poker_terms_and_conditions.content}
               />
             </Route>
             <Route path="/projects/profile_react">
