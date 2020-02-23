@@ -12,6 +12,7 @@ export default class Projects extends Component {
         <Header />
         <ProjectsList
           projects={[
+            projects.profile_react,
             projects.pomodoro_time,
             projects.profile_flutter,
             projects.planning_poker,

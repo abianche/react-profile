@@ -8,6 +8,7 @@ import AutoscuolaSilveri from "./pages/projects/AutoscuolaSilveri";
 import PlanningPoker from "./pages/projects/PlanningPoker";
 import PomodoroTime from "./pages/projects/PomodoroTime";
 import ProfileFlutter from "./pages/projects/ProfileFlutter";
+import ProfileReact from "./pages/projects/ProfileReact";
 
 export const Palette = {
   raisin_black: "#212121",
@@ -32,6 +33,9 @@ const App = () => {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/projects/profile_react">
+              <ProfileReact />
             </Route>
             <Route path="/projects/profile_flutter">
               <ProfileFlutter />
