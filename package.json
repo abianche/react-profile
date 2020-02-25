@@ -5,7 +5,7 @@
     "email": "alessio.bianchetti@gmail.com",
     "url": "https://abianche.github.io"
   },
-  "homepage": "http://abianche.github.io/react-profile",
+  "homepage": "https://abianche.github.io",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/abianche/react-profile"
@@ -38,7 +38,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
