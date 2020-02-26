@@ -5,7 +5,7 @@
     "email": "alessio.bianchetti@gmail.com",
     "url": "https://abianche.github.io"
   },
-  "homepage": "http://abianche.github.io/",
+  "homepage": "https://abianche.github.io",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/abianche/react-profile"
@@ -36,7 +36,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
