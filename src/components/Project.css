@@ -12,8 +12,7 @@
 }
 
 .Project .Header {
-  height: 250px;
-  width: auto;
-  border-radius: 2%;
+  max-width: 50%;
+  max-height: 250px;
   cursor: pointer;
 }

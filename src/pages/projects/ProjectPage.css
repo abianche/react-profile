@@ -23,9 +23,9 @@
 }
 
 .ProjectPage .Header {
-  height: 250px;
+  max-height: 250px;
   width: auto;
-  border-radius: 2%;
+  max-width: 100%;
 }
 
 .ProjectPage .Content {

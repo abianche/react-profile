@@ -46,8 +46,8 @@ export default class ProfileFlutter extends React.Component<
             <a href="https://github.com/abianche/flutter_profile">
               https://github.com/abianche/flutter_profile
             </a>
+            {"."}
           </p>
-          .
         </div>
         <Footer />
       </div>
