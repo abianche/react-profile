@@ -9,9 +9,6 @@ export default class Header extends React.Component {
           <a href="/">
             <b>ALESSIO BIANCHETTI</b>
           </a>
-          <a href="/projects">
-            <b>Projects</b>
-          </a>
         </div>
       </div>
     );
