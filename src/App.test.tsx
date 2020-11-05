@@ -16,9 +16,6 @@ test("renders app", () => {
   const headerName = getByText(header, /Alessio Bianchetti/i);
   expect(headerName).toBeInTheDocument();
 
-  const headerProjects = getByText(header, /Projects/i);
-  expect(headerProjects).toBeInTheDocument();
-
   const profile = getByTestId("profile");
   expect(profile).toBeInTheDocument();
 
@@ -33,7 +30,4 @@ test("renders app", () => {
 
   const footer = getByTestId("footer");
   expect(footer).toBeInTheDocument();
-
-  const donateButton = getByTestId("donate-button");
-  expect(donateButton).toBeInTheDocument();
 });
